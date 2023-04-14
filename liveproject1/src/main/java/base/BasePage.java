@@ -52,7 +52,6 @@ public class BasePage {
     }
     public  static String takeSnapShot(String name) throws IOException, InterruptedException {
         File srcFile = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
-
         String destFile = System.getProperty("user.dir") + "\\target\\screenshots\\" + timeStamp() + ".png";
         screenShotDestinationPath = destFile;
         //file:///C:/Users/user/IdeaProjects/liveproject1/target/screenshots/

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<!-- <groups>-->
+<!--     <run>-->
+<!--         <include name="regression" />-->
+<!--     </run>-->
+<!-- </groups>-->
+<!--    <parameter name="email" value="testtest261@test.com"/>-->
+<!--    <parameter name="password" value="passpass261"> </parameter>-->
+
+
+    <test verbose="2" preserve-order="true" name="C:/Users/user/IdeaProjects/SELENIUM_MAVANPROJECT/src/main/java">
+<!--    <classes>-->
+<!--        <class name="Section11.L02_TestInstall">-->
+<!--    <methods><include name="helloWorld"/>-->
+<!--        <include name="helloWorld1"/>-->
+<!--    </methods>-->
+<!--        </class>-->
+<!--        <class name="Section11.L03a_TestNGXML">-->
+<!--        <methods>-->
+<!--            <include name="method1"/>-->
+<!--            <include name="method2"/>-->
+<!--        </methods>-->
+<!--        </class>-->
+<!--        <class name="Section11.L03b_TestNGXML">-->
+<!--        <methods>-->
+<!--            <include name="method3"/>-->
+<!--            <include name="method4"/>-->
+<!--        </methods>-->
+<!--        </class>-->
+<!--        <class name="Section11.L04a_TestNGXML">-->
+<!--            <methods>-->
+<!--                <include name="method5"/>-->
+<!--                <include name="method6"/>-->
+<!--            </methods>-->
+<!--        </class>-->
+<!--        <class name="Section11.L04b_TestNGXML">-->
+<!--            <methods>-->
+<!--                <include name="method7"/>-->
+<!--                <include name="method8"/>-->
+<!--            </methods>-->
+<!--        </class>-->
+<!--        <packages>-->
+<!--            <package name="Section11"></package>-->
+
+<!--        </packages>-->
+<!--</classes>-->
+
+
+    <classes>
+        
+<!--        <class name="Section11.L08_Annotation_Pt2">-->
+<!--            <methods>-->
+<!--&lt;!&ndash;                <include name="method8">&ndash;&gt;-->
+<!--&lt;!&ndash;                    &ndash;&gt;-->
+<!--&lt;!&ndash;                </include>&ndash;&gt;-->
+<!--&lt;!&ndash;                <include name="Desktop.*">&ndash;&gt;-->
+
+<!--&lt;!&ndash;                </include>&ndash;&gt;-->
+<!--            </methods>-->
+<!--        </class>-->
+
+<!--        <class name="Section11.L12_dataProvider"></class>-->
+<!--        <class name="Section11.L10b_TestNGXML"></class>-->
+        <class name="Section12.L04_Login"></class>
+        <class name="Section12.L04_Login2"></class>
+
+    </classes>
+</test>
+</suite>
